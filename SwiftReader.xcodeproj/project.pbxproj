@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		B856DD1E1A6DFB8B00481C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856DD1D1A6DFB8B00481C69 /* AppDelegate.swift */; };
 		B856DD211A6DFB8B00481C69 /* SwiftReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B856DD1F1A6DFB8B00481C69 /* SwiftReader.xcdatamodeld */; };
-		B856DD231A6DFB8B00481C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856DD221A6DFB8B00481C69 /* ViewController.swift */; };
 		B856DD261A6DFB8B00481C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B856DD241A6DFB8B00481C69 /* Main.storyboard */; };
 		B856DD281A6DFB8B00481C69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B856DD271A6DFB8B00481C69 /* Images.xcassets */; };
 		B856DD2B1A6DFB8B00481C69 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B856DD291A6DFB8B00481C69 /* LaunchScreen.xib */; };
 		B856DD371A6DFB8B00481C69 /* SwiftReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856DD361A6DFB8B00481C69 /* SwiftReaderTests.swift */; };
+		B856DD411A6F598400481C69 /* FeedsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856DD401A6F598400481C69 /* FeedsTableViewController.swift */; };
+		B856DD431A6F5BF100481C69 /* ArticlesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856DD421A6F5BF100481C69 /* ArticlesTableViewController.swift */; };
+		B856DD451A6F5C0900481C69 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856DD441A6F5C0900481C69 /* WebViewController.swift */; };
+		B856DD491A75F1A800481C69 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856DD481A75F1A800481C69 /* FeedModel.swift */; };
+		B856DD4B1A75F2B800481C69 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856DD4A1A75F2B800481C69 /* ArticleModel.swift */; };
+		B8A9B5E01A796C9F004E2EFE /* AddFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9B5DF1A796C9F004E2EFE /* AddFeedViewController.swift */; };
+		B8A9B5E61A79ECDE004E2EFE /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9B5E51A79ECDE004E2EFE /* Feed.swift */; };
+		B8A9B5E81A79ECDE004E2EFE /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A9B5E71A79ECDE004E2EFE /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +38,20 @@
 		B856DD1C1A6DFB8B00481C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B856DD1D1A6DFB8B00481C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B856DD201A6DFB8B00481C69 /* SwiftReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftReader.xcdatamodel; sourceTree = "<group>"; };
-		B856DD221A6DFB8B00481C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B856DD251A6DFB8B00481C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B856DD271A6DFB8B00481C69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B856DD2A1A6DFB8B00481C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B856DD301A6DFB8B00481C69 /* SwiftReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B856DD351A6DFB8B00481C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B856DD361A6DFB8B00481C69 /* SwiftReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftReaderTests.swift; sourceTree = "<group>"; };
+		B856DD401A6F598400481C69 /* FeedsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsTableViewController.swift; sourceTree = "<group>"; };
+		B856DD421A6F5BF100481C69 /* ArticlesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesTableViewController.swift; sourceTree = "<group>"; };
+		B856DD441A6F5C0900481C69 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B856DD481A75F1A800481C69 /* FeedModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		B856DD4A1A75F2B800481C69 /* ArticleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		B8A9B5DF1A796C9F004E2EFE /* AddFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFeedViewController.swift; sourceTree = "<group>"; };
+		B8A9B5E51A79ECDE004E2EFE /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		B8A9B5E71A79ECDE004E2EFE /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +94,19 @@
 			isa = PBXGroup;
 			children = (
 				B856DD1D1A6DFB8B00481C69 /* AppDelegate.swift */,
-				B856DD221A6DFB8B00481C69 /* ViewController.swift */,
 				B856DD241A6DFB8B00481C69 /* Main.storyboard */,
+				B8A9B5DF1A796C9F004E2EFE /* AddFeedViewController.swift */,
+				B856DD481A75F1A800481C69 /* FeedModel.swift */,
+				B856DD4A1A75F2B800481C69 /* ArticleModel.swift */,
 				B856DD271A6DFB8B00481C69 /* Images.xcassets */,
 				B856DD291A6DFB8B00481C69 /* LaunchScreen.xib */,
 				B856DD1F1A6DFB8B00481C69 /* SwiftReader.xcdatamodeld */,
+				B8A9B5E71A79ECDE004E2EFE /* Article.swift */,
+				B8A9B5E51A79ECDE004E2EFE /* Feed.swift */,
 				B856DD1B1A6DFB8B00481C69 /* Supporting Files */,
+				B856DD401A6F598400481C69 /* FeedsTableViewController.swift */,
+				B856DD421A6F5BF100481C69 /* ArticlesTableViewController.swift */,
+				B856DD441A6F5C0900481C69 /* WebViewController.swift */,
 			);
 			path = SwiftReader;
 			sourceTree = "<group>";
@@ -164,6 +185,11 @@
 				TargetAttributes = {
 					B856DD171A6DFB8B00481C69 = {
 						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					B856DD2F1A6DFB8B00481C69 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -215,8 +241,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B856DD231A6DFB8B00481C69 /* ViewController.swift in Sources */,
 				B856DD211A6DFB8B00481C69 /* SwiftReader.xcdatamodeld in Sources */,
+				B8A9B5E61A79ECDE004E2EFE /* Feed.swift in Sources */,
+				B856DD491A75F1A800481C69 /* FeedModel.swift in Sources */,
+				B8A9B5E01A796C9F004E2EFE /* AddFeedViewController.swift in Sources */,
+				B8A9B5E81A79ECDE004E2EFE /* Article.swift in Sources */,
+				B856DD411A6F598400481C69 /* FeedsTableViewController.swift in Sources */,
+				B856DD431A6F5BF100481C69 /* ArticlesTableViewController.swift in Sources */,
+				B856DD451A6F5C0900481C69 /* WebViewController.swift in Sources */,
+				B856DD4B1A75F2B800481C69 /* ArticleModel.swift in Sources */,
 				B856DD1E1A6DFB8B00481C69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +442,7 @@
 				B856DD3C1A6DFB8B00481C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B856DD3D1A6DFB8B00481C69 /* Build configuration list for PBXNativeTarget "SwiftReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +451,7 @@
 				B856DD3F1A6DFB8B00481C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
