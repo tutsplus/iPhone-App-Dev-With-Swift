@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B856DD171A6DFB8B00481C69"
+               BlueprintIdentifier = "B876AADD1B062FB4007AAA66"
                BuildableName = "SwiftReader.app"
                BlueprintName = "SwiftReader"
                ReferencedContainer = "container:SwiftReader.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B856DD2F1A6DFB8B00481C69"
+               BlueprintIdentifier = "B876AAF51B062FB4007AAA66"
                BuildableName = "SwiftReaderTests.xctest"
                BlueprintName = "SwiftReaderTests"
                ReferencedContainer = "container:SwiftReader.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B856DD2F1A6DFB8B00481C69"
+               BlueprintIdentifier = "B876AAF51B062FB4007AAA66"
                BuildableName = "SwiftReaderTests.xctest"
                BlueprintName = "SwiftReaderTests"
                ReferencedContainer = "container:SwiftReader.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B856DD171A6DFB8B00481C69"
+            BlueprintIdentifier = "B876AADD1B062FB4007AAA66"
             BuildableName = "SwiftReader.app"
             BlueprintName = "SwiftReader"
             ReferencedContainer = "container:SwiftReader.xcodeproj">
@@ -72,10 +72,11 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B856DD171A6DFB8B00481C69"
+            BlueprintIdentifier = "B876AADD1B062FB4007AAA66"
             BuildableName = "SwiftReader.app"
             BlueprintName = "SwiftReader"
             ReferencedContainer = "container:SwiftReader.xcodeproj">
@@ -90,10 +91,11 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B856DD171A6DFB8B00481C69"
+            BlueprintIdentifier = "B876AADD1B062FB4007AAA66"
             BuildableName = "SwiftReader.app"
             BlueprintName = "SwiftReader"
             ReferencedContainer = "container:SwiftReader.xcodeproj">
